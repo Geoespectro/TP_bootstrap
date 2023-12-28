@@ -1,0 +1,421 @@
+/* Estilos para la barra de navegación */
+.navbar {
+  padding: 2rem;
+  background-color: #0a0a23;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: #f5f6f7;
+}
+
+/* Estilos generales */
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+/* Estilos para la sección Hero */
+.hero {
+  background-color: #f5f6f7;
+  min-height: 250px;
+  text-align: center;
+}
+
+.hero-imagen-perfil {
+  width: 175px;
+  height: 175px;
+  margin: 40px;
+  object-fit: cover;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615156;
+}
+
+.hero-inferior-imagen {
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+/* Estilos para la sección Sobre mí */
+.sobre-mi {
+  height: 350px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Estilos para la sección Experiencia */
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2 s ease-in;
+}
+
+.experiencia .columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges {
+  margin: 5px;
+}
+
+/* Estilos para la sección Galería */
+.vivencias {
+  padding: 40px 40px 80px 40px;
+}
+
+.vivencias .carousel {
+  max-width: 700px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vivencia-imagen {
+  height: 100%;
+  width: 100%;
+  margin: 10px 10px 20px 10px;
+}
+
+/* Estilos para la sección Estudios */
+.articulos {
+  min-height: 500px;
+  padding: 30px;
+}
+
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+/* Estilos para la sección Contacto */
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -3rem;
+  background-color: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Estilos para el pie de página (footer) */
+footer {
+  min-height: 150px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+  transform: scale(1.2);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Estilos responsivos */
+
+/* dispositivos pequeños (767px o menos) */
+@media screen and (max-width: 767px) {
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-nav {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .navbar img {
+    display: none;
+  }
+  .hero-principal h1 {
+    font-size: 1.8rem;
+  }
+  
+  .seccion-titulo {
+    font-size: 1.5rem;
+  }
+
+  .hero-imagen-perfil {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+  }
+
+  .contacto .container {
+    max-width: 100%;
+    min-height: 150px;
+    padding: 10px;
+  }
+
+  .contacto .rectangulo {
+    margin-top: -1rem;
+  }
+
+  .contacto button {
+    margin: 10px auto;
+  }
+
+  .sobre-mi {
+    height: auto;
+    padding: 10px;
+  }
+
+  .sobre-mi .contenedor {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .seccion-texto {
+    font-size: 1rem;
+  }
+
+  .vivencias .carousel-item {
+    height: auto;
+  }
+
+  .vivencia-imagen {
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+}
+
+/* dispositivos grandes (más de 767px) */
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 2rem;
+  }
+
+  .hero-imagen-perfil {
+    width: 175px;
+    height: 175px;
+    margin: 40px;
+  }
+
+  .contacto button {
+    margin: 10px;
+  }
+}
+
+/* Definición de colores para los temas claro y oscuro */
+:root {
+  --color-fondo-claro: #f5f6f7;
+  --color-fondo-oscuro: #1b1b32;
+  --color-texto-claro: #1b1b32;
+  --color-texto-oscuro: #f5f6f7;
+}
+
+/* Estilos por defecto para el tema claro */
+body {
+  background-color: var(--color-fondo-claro);
+  color: var(--color-texto-claro);
+}
+
+/* Estilos para el tema oscuro */
+body.tema-oscuro {
+  background-color: var(--color-fondo-oscuro);
+  color: var(--color-texto-oscuro);
+}
+
+.theme-text {
+  color: var(--color-texto-claro);
+}
+
+body.tema-oscuro .theme-text {
+  color: var(--color-texto-oscuro);
+}
+
+.hero {
+  background-color: var(--color-fondo-claro);
+  color: var(--color-texto-claro);
+}
+
+body.tema-oscuro .hero {
+  background-color: var(--color-fondo-oscuro);
+  color: var(--color-texto-oscuro);
+}
+
+body.tema-oscuro .modal-title {
+  color: var(--color-texto-claro);
+}
+
+/* Animacion */
+@keyframes rotacion {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.latido {
+  animation: rotacion 20s infinite linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

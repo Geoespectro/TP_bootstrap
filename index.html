@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html  lang="es">
+    <head>
+        <!-- Metadatos -->
+        <meta charset="utf-8">
+        <meta name="author" content="Juan Carlos">
+        <meta name="description" content="Potafolio de Yesica">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="imagenes/ambiente.svg">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Titulo -->
+        <title>Trabajo Practico Final | Bootstrap</title>
+      </head>
+      <body>
+        <!-- Barra de Navegacion -->
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+              <img class="rounded-circle  latido" src="imagenes/ambiente.png" width="50" alt="Logo ">
+          </a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbar-toggler">
+            <ul class="navbar-nav">
+              <li class="nav-item ">
+                <a class="nav-link"aria-current="page" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#antartida">Antartida</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#estudios">Estudios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "href="#contacto">Contacto</a>
+              </li>
+            </ul>
+            <!-- Botón de cambio de tema -->
+            <button id="theme-toggle" class="btn btn-outline-secondary ms-3">
+              <i id="theme-icon" class="bi bi-moon-fill"></i>
+            </button>
+
+          </div>
+        </div>
+      </nav>
+      <!-- Seccion1 Hero -->
+      <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-perfil rounded-circle" src="imagenes/antartida7.png" alt="foto de Yesica">
+            <h1> Hola, Soy Yessica Romina Sosa</h1>
+            <h2>Técnica Superior en Gestión Ambiental</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="imagenes/hero.svg" alt="imagen">
+          </div>
+        </section>
+        <!-- Seccion2 sobre Mi -->
+        <section class="sobre-mi seccion-oscura" id="sobre-mi">
+          <div class="contenedor">
+            <h2 class="seccion-titulo ">Conoce a Yesica</h2>
+            <p class="seccion-texto">Actualmente tengo 31 años. Me gradué como Técnica Superior en Gestión Ambiental en 2021. Realicé una Diplomatura Universitaria en Geomática Aplicada y otra Diplomatura en Gestión Ambiental, junto con diversos cursos de capacitación. Tengo habilidades para trabajar individualmente y en equipo en cualquier área. Además, tengo experiencia en la gestión de residuos antárticos y en la implementación de la certificación ISO 14001.</p>
+          </div>
+        </section>
+        <!-- Seccion3 Experencia -->
+        <section class="experiencia seccion-clara">
+            <div class="container text-center">
+              <div class="row">
+                <!-- Experiencia Antartica -->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-globe-americas"></i>
+                  <p class="experiencia-titulo">Experencia Antartica</p>
+                  <p>He tenido la oportunidad de visitar la Antártida en cinco ocasiones consecutivas. Durante estos viajes, he trabajado en diferentes barcos y desempeñado diversos roles laborales. Mi trabajo me ha permitido conocer y maravillarme por tan bello continente.</p>
+                  <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">2016</span>
+                    <span class="badge text-bg-primary">2017</span>
+                    <span class="badge text-bg-primary">2018</span>
+                    <span class="badge text-bg-primary">2019</span>
+                    <span class="badge text-bg-primary">2020</span>
+                    <span class="badge text-bg-primary">2021</span>
+                  </div>
+                </div>
+                <!-- Estudiante -->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-person-fill-add"></i>
+                  <p class="experiencia-titulo">Estudiante</p>
+                  <p>Comencé mis estudios terciarios enfocada en la gestión ambiental y me enfoqué/incursioné en el campo de la teledetección y herramientas de GIS. Actualmente, me encuentro cursando el ciclo de licenciatura en Gestión Ambiental.</p>
+                  <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Tecnicatura</span>
+                    <span class="badge text-bg-primary">Diplomaturas</span>
+                    <span class="badge text-bg-primary">Cursos</span>
+                    <span class="badge text-bg-primary">Licenciatura</span>
+                  </div>
+                </div>
+                <!-- Proyectos -->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-bar-chart-fill"></i>
+                  <p class="experiencia-titulo">Proyectos</p>
+                  <p>Mis proyectos para el 2024 incluyen culminar el ciclo de licenciatura, realizar mi tesis, contar con propuestas laborales y adquirir experiencia.</p>
+                  <div class="badges-contenedor">
+                    <span class="badge text-bg-primary">Tesis de Licenciatura</span>
+                    <span class="badge text-bg-primary">Consultoria Ambiental</span>
+                    <span class="badge text-bg-primary">Trabajar en el Exterior</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Seccion4 Galeria -->
+          <section id="vivencias" class="vivencias seccion-clara">
+            <h2 class="seccion-titulo" id="antartida">Galeria</h2>
+            <h3 class="seccion-descripcion">Estos son algunos momentos de mi experiencia en la Antartida</h3>
+            <!-- Carrusel -->
+            <div id="vivencias-carrusel" class="carousel  slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto"  src="imagenes/antartida10.png" alt="foto de la antartida">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto" src="imagenes/antartida2.png" alt="foto de la antartida">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto"  src="imagenes/antartida3.png" alt="foto de la antartida">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto" src="imagenes/antartida4.png" alt="foto de la antartida">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto" src="imagenes/antartida5.png" alt="foto de la antartida">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto"  src="imagenes/antartida6.png" alt="foto de la antartida">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto"  src="imagenes/antartida7.png" alt="foto de la antartida">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto"  src="imagenes/antartida8.png" alt="foto de la antartida">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="vivencia-imagen d-block mx-auto" src="imagenes/antartida1.png" alt="foto de la antartida">
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#vivencias-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#vivencias-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button>
+            </div>
+          </section>
+          <!-- Seccion5 Estudios-->
+          <section class="articulos justify-content-start" id="estudios">
+            <h2 class="seccion-titulo">Estudios</h2>
+            <div class="card" >
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Tecnicatura Superior en Gestión Ambiental </li>
+                <li class="list-group-item">Diplonatura Universitaria en Geomatica Aplicada</li>
+                <li class="list-group-item">Diplomatura en Gestión Ambiental</li>
+                <li class="list-group-item">Cursando Licenciatura en Gestión Ambiental</li>
+                <li class="list-group-item">Curso de Qgis</li>
+              </ul>
+            </div>
+            <!-- Modal para ver más cursos -->
+              <div class="modal fade" id="modalVerMasCursos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title theme-text" id="exampleModalLabel">Más cursos</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Teledetección Óptica - Nivel introductorio</li>
+                        <li class="list-group-item">Teledetección SAR - Nivel introductorio</li>
+                        <li class="list-group-item">Teledetección aplicada al Color del Océano - Nivel introductorio</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modalVerMasCursos">
+               Ver más cursos
+               <i class="bi bi-arrow-right-circle-fill"></i>
+             </button>
+            </section>
+            <!-- Seccion6 Contacto -->
+            <section id="contacto" class="contacto seccion-oscura"id="contacto">
+              <div class="container">
+                <div class="container text-center rectangulo d-flex justify">
+                  <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                      ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4">
+                      Contáctame para mas informacion personal y profesional.
+                    </div>
+                    <div class="col-12 col-md-4">
+                      <a href="mailto:ro_0118@hotmail.com">
+                        <button type="button">  
+                          Contacto
+                          <i class="bi bi-envelope-check-fill"></i>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--footer -->
+            <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+              <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                <a href="https://twitter.com/yesicarominasosa" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-twitter-x"></i>
+                  <a href="https://www.linkedin.com/in/yesica-sosa-2b29a1239" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a href="https://www.instagram.com/yesicarominasosa/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a href="https://www.facebook.com/yesicaromina.sosa/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </div>
+                <div class="derechos-de-autor">Creado por JCQ (2023) &#169;</div>
+              </footer>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+              <script src="scrpts.js"></script>
+            </body>
+            </html>
+                    
+                   
+
+
+                    
+        
+
+
+
+        
+  
+
+           
+  
+                       
+                
+            
+                        
+
+            
+               
+            
+            
+  
+                
+        
+        
+             
+        
+        
+             
+                
+
+
+
+         
+          
+                
+                        
+
+                        
+                       
+                  
+                 
+                 
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+          
+                
+
+      
+        
+
+                
+                      
